@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Alura Oracle</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo_header">
+                <img src="logo.svg" alt="Logo Alura">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="encriptador">
+                <form class="encriptador_input">
+                    <div class="text_in">
+                        <textarea name="text_in_area" id="texto" placeholder="Ingrese el texto aqui" required></textarea>
+                        <div class="restriciones_text">
+                            <div class="info">
+                                <img src="exclamation.png" alt="exclamation">
+                                <p id="advertencia">Solo letras minúsculas y sin acentos</p>
+                            </div>
+                            <div class="buttons">
+                                <input id="enc" type="button" value="Encriptar">
+                                <input id="des" type="button" value="Desencriptar">
+                            </div> 
+                        </div>
+                    </div>
+                </form>
+
+                <div class="encriptador_output">
+                    <div class="container_output">
+                        <div class="content" id="default">
+                            <div class="encriptadorOut">
+                                <img src="muñeco.png    " alt="Imagen de animada">
+                            </div><p>Ningún mensaje fue encontrado</p>
+                            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                        <div class = "content invisible" id="result">
+                            <textarea name="text-output" id="textOutput" disabled></textarea>
+                            <button id="copiar">Copiar</button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="script.js"></script>
+</html>
