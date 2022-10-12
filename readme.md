@@ -1,7 +1,7 @@
 
 # 🔏 Encriptador de texto
 
-<div align="center"><img src="/imagenes/logo.svg" width="64"/></div>
+<div align="center"><img src="logo.svg" width="64"/></div>
 
 <div align="center">
     <img src="https://img.shields.io/badge/JavaScript-5A5A5A?logo=javascript&logoColor=yelllow"/>
